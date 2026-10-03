@@ -34,6 +34,22 @@ export function App() {
 
   return (
     <div className="min-h-screen bg-[#080c14] text-slate-100 flex flex-col selection:bg-sky-500 selection:text-slate-950">
+      {/* Demo Banner */}
+      <div className="bg-gradient-to-r from-sky-950 via-slate-900 to-indigo-950 border-b border-sky-500/20 px-4 py-2 text-xs text-sky-200 flex flex-wrap items-center justify-between gap-2 shadow-sm z-50">
+        <div className="flex items-center gap-2">
+          <span className="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-semibold bg-sky-500/20 text-sky-300 border border-sky-500/30">
+            DEMO INTERATIVA
+          </span>
+          <span>Ambiente de demonstração com persistência local. Emita pedidos B2B, valide limites de crédito e acompanhe o Kanban!</span>
+        </div>
+        <a
+          href="https://roviro.com.br#solucoes"
+          className="text-sky-400 hover:text-white font-medium flex items-center gap-1 transition-colors"
+        >
+          ← Voltar para o Portfólio Roviro
+        </a>
+      </div>
+
       {/* Top Navbar */}
       <Navbar
         currentView={currentView}
