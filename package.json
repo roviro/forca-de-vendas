@@ -1,0 +1,25 @@
+{
+  "name": "forca-de-vendas-roviro",
+  "version": "1.0.0",
+  "description": "App Força de Vendas B2B & Torre de Controle Logística para Distribuidoras e Indústrias",
+  "private": true,
+  "scripts": {
+    "dev:server": "cd server && bun run dev",
+    "dev:client": "cd client && bun run dev",
+    "build:client": "cd client && bun run build",
+    "build:server": "cd server && bun run build",
+    "build": "bun run build:client && bun run build:server",
+    "start": "cd server && bun run start"
+  },
+  "keywords": [
+    "forca-de-vendas",
+    "b2b",
+    "distribuicao",
+    "atacado",
+    "logistica",
+    "kanban",
+    "roviro",
+    "saas"
+  ],
+  "author": "Roviro"
+}
